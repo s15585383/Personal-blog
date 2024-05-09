@@ -2,6 +2,10 @@ const usernameInput = document.querySelector('#Username');
 const titleInput = document.querySelector('#Title');
 const submitButton = document.querySelector('#Submit');
 const contentInput = document.querySelector('#Content');
+const msgDiv = document.querySelector('#Message');
+const userUsernameSpan = document.querySelector('#UserUsername');
+const userTitleSpan = document.querySelector('#UserTitle');
+const userContentSpan = document.querySelector('#UserContent');
 
 renderLastRegistered();
 
@@ -19,8 +23,9 @@ function renderLastRegistered() {
     return;
     }
 
-    userEmailSpan.textContent = email;
-    userPasswordSpan.textContent = password;
+    userUsernameSpan.textContent = Username;
+    userTitleSpan.textContent = Title;
+    userContentSpan.textContent = Content;
 }
 
 submitButton.addEventListener('click', function (event) {
@@ -30,11 +35,10 @@ submitButton.addEventListener('click', function (event) {
     const titleInput = titleInput.value;
     const contentInput = contentInput.value;
 
-    if (Username || Title || Content === '') {
+    if (Username === '' || Title === '' || Content === '') {
     displayMessage('error', 'Please fill out all areas');
     } else {
     window.location.href = 'blog.html'
-
     localStorage.setItem('Username', Username);
     localStorage.setItem('Title', Title);
     localStorage.setItem('Content', Content);
