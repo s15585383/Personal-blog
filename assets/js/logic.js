@@ -2,13 +2,13 @@
 // const themeSwitcher = document.querySelector ('#theme-switcher');
 
 const themeSwitcher = document.querySelector('#theme-switcher');
-const container = document.querySelector('.container');
+// const container = document.querySelector('.container');
 
-let  themeMode = 'dark'; 
+let themeMode = 'dark';
 
 const toggleTheme = () => {
-themeMode = themeMode === 'dark' ? 'light' : 'dark'
-container.setAttribute("class", `container ${themeMode}`)
+    document.body.classList.toggle("light")
+    document.body.classList.toggle("dark")
 }
 
 themeSwitcher.addEventListener("click", toggleTheme)

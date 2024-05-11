@@ -67,3 +67,10 @@ button:hover {
     margin-top: 10px;
     color: red;
 }
+
+
+.dark {
+    & .content {
+        background-color: #3a3a3a;
+    }
+}
