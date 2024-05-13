@@ -36,7 +36,12 @@ THEN I can see the title, the content, and the author of the post.
 WHEN I view the footer,
 THEN I am presented with a link to the developer's portfolio.
 ```
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image.png)
-![alt text](image-1.png)
+![image](https://github.com/s15585383/Personal-blog/assets/144190280/c26e8a7b-bde3-4a87-a9e8-28f52f2b45fb)
+![image](https://github.com/s15585383/Personal-blog/assets/144190280/cabbb6e2-e8c8-408e-bb2b-2914c10898e9)
+****![image](https://github.com/s15585383/Personal-blog/assets/144190280/0426f638-2fd6-4b52-883b-45df3d2153e8)
+![image](https://github.com/s15585383/Personal-blog/assets/144190280/2ef417fc-616e-4f74-ac8b-bda6190f2fb7)
+![image](https://github.com/s15585383/Personal-blog/assets/144190280/d7bf086d-7163-4768-bf9a-6385bbafe09f)
+
+
+
+
